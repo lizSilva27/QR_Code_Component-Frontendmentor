@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --White: rgb(255, 255, 255);
+  --LightGray: rgb(214, 226, 240);
+  --GrayishBlue: rgb(123, 135, 157);
+  --DarkBlue: rgb(31, 50, 81);
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-family: 15px;
+  background-color: var(--LightGray);
+}
+
+.mainContainer {
+  display: list-item;
+}
+
+.mainContainer .container {
+  background-color: var(--White);
+  width: 320px;
+  height: 500px;
+  margin: 60px auto;
+  border-radius: 18px;
+  padding: 16px;
+  transition: 300ms;
+}
+
+.mainContainer .container:hover {
+  cursor: pointer;
+  box-shadow: 8px 8px 8px;
+  transition: 300ms;
+  margin-top: 50px;
+}
+
+.mainContainer .container .imgCodeQR {
+  background-image: url(images/image-qr-code.png);
+  background-size: cover;
+  border-radius: 18px;
+  width: 1005;
+  height: 288px;
+  margin-bottom: 24px;
+  animation: UpCenter 500ms none;
+}
+
+.mainContainer .container h1 {
+  color: var(--DarkBlue);
+  font-size: 23px;
+  text-align: center;
+  margin: 0 15px;
+  margin-bottom: 24px;
+  animation: leftCenter 300ms none;
+}
+
+.mainContainer .container p {
+  color: var(--GrayishBlue);
+  font-size: 18px;
+  text-align: center;
+  margin: 0 15px;
+  animation: rightCenter 300ms none;
+}
+
+@keyframes UpCenter {
+  0% {
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes leftCenter {
+  0% {
+    transform: translateY(-500px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+
+
+}
+
+@keyframes rightCenter {
+  0% {
+    transform: translateY(+500px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .mainContainer {
+    display: flex;
+    width: 1200px;
+    margin:  0 auto;
+  }
+}
