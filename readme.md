@@ -11,8 +11,8 @@ design/viewDesktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/lizSilva27/QR_Code_Component-Frontendmentor)
-- Live Site URL: [Add live site URL here](https://qrcodecomponent-solution.netlify.app)
+- Solution URL: https://github.com/lizSilva27/QR_Code_Component-Frontendmentor
+- Live Site URL: https://qrcodecomponent-solution.netlify.app
 
 # My process
 
@@ -64,6 +64,7 @@ I will continue striving to understand and learn about media queries since they 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+## Author
+
+- Github https://github.com/lizSilva27
+- Frontend Mentor https://www.frontendmentor.io/profile/lizSilva27
